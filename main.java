@@ -1,7 +1,7 @@
 class Main {
     public static void main(String[] args) {
         // edge cases
-        if(args[0].length() != args[1].length()) {
+        if(args[0].length() == 0 || args[1].length() == 0 || args[0].length() != args[1].length()) {
             System.out.println("false");
             return;
         }
