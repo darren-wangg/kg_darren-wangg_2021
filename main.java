@@ -1,4 +1,4 @@
-class Main {
+class main {
     public static void main(String[] args) {
         // edge cases
         if(args[0].length() == 0 || args[1].length() == 0 || args[0].length() != args[1].length()) {
